@@ -17,8 +17,8 @@ section {
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.625);
 }
 
-div {
-  text-align: center;
+div{
+  text-align: left;
   padding: 8px;
 }
 
