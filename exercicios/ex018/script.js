@@ -1,4 +1,5 @@
-let amigo = {
+//criando um object
+let $amigo = {
   nome: "jose",
   sexo: "M",
   peso: 85.5,
@@ -7,5 +8,5 @@ let amigo = {
     this.peso += p;
   },
 };
-amigo.engordar(2);
-console.log(`${amigo.nome} pesa ${amigo.peso}kg`);
+$amigo.engordar(2);
+console.log(`${$amigo.nome} pesa ${amigo.peso}kg`);
