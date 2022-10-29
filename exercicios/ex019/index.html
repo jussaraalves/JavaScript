@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terreno</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            
+            
+        }
+        .quadrado{
+            background-color: rgba(0, 145, 255, 0.508);
+            max-width: 30%;
+            height: 13rem;
+            padding-top: 10px;
+            padding-left: 10px;   
+            margin: auto;  
+            
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="quadrado">
+            <p>
+                Digite a largura do terreno:
+                <input type="number" name="" id="txt-largura">
+            </p>
+            <p>
+                Digite o comprimento do terreno:
+                <input type="number" name="" id="txt-comprimento">
+            </p>
+            <p>
+                Digite o valor do metro quadrado:
+                <input type="number" name="" id="txt-metro">
+            </p>
+            <input type="submit" value="Calcular" onclick="calcular()">
+
+            <div id="res">
+                preencha os dados a cima para ver o resultado!
+            </div>
+        </div>
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
